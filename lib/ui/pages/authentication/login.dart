@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ));
                         } else {
                           const snackBar = SnackBar(
-                            content: Text('User or passwor nok'),
+                            content: Text('User or password nok'),
                           );
                           ScaffoldMessenger.of(context).showSnackBar(snackBar);
                         }
